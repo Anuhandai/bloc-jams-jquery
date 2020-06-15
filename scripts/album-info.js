@@ -1,6 +1,6 @@
 {
   $('#album-title').text(album.title);
-+  $('img#album-cover-art').attr('src', album.albumArtUrl);
-$('.artist').text(album.artist);
-$('.release-info').text(album.realeaseInfo);
+  $('img#album-cover-art').attr('src', album.albumArtUrl);
+  $('.artist').text(album.artist);
+  $('#release-info').text("1990 Spanish Records");
 }
